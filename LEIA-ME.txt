@@ -1,0 +1,70 @@
+SOL NA PISCINA — Projeto Integrador
+=====================================
+
+COMO USAR
+---------
+1. Coloque os arquivos de imagem (img1.png, img2.png, etc.) na MESMA pasta
+   que o arquivo index.html.
+2. Abra o index.html no navegador (duplo clique) para ver o site.
+3. Enquanto uma imagem não existir, o site mostra um retângulo com o nome
+   do arquivo esperado (ex: "img2.png") no lugar dela — então dá para
+   trabalhar no site mesmo antes de todas as imagens estarem prontas.
+
+ARQUIVOS
+--------
+index.html   -> estrutura e conteúdo do site
+styles.css   -> visual (cores, tipografia, layout, responsividade)
+script.js    -> interatividade (menu, acessibilidade, disco de Newton, simulador)
+
+IMAGENS ESPERADAS (crie com esses nomes exatos)
+------------------------------------------------
+img1.png  — Imagem de fundo do topo (hero). Sugestão: foto da piscina
+            térmica do CEP, ou uma composição com luz solar sobre a água.
+            Formato paisagem, ideal 1600x1000px ou maior.
+
+img2.png  — Foto/close de um coletor solar térmico (placa escura),
+            usada na seção "O Desafio". Formato 4:3, ex: 1200x900px.
+
+img3.png  — Diagrama ou foto de uma câmara escura (raios de luz entrando
+            por um orifício), usada na seção "Óptica Aplicada".
+            Formato quadrado, ex: 1000x1000px.
+
+img4.png  — Foto de sensores/microcontrolador do protótipo conceitual
+            (ex: Arduino + sensor de temperatura), seção "Robótica".
+            Formato 4:3, ex: 1200x900px.
+
+img5.png  — Foto de Amanda Meyrin, seção "Equipe". Formato quadrado, ex: 600x600px.
+img6.png  — Foto de Beatriz Alves, seção "Equipe". Formato quadrado, ex: 600x600px.
+img7.png  — Foto de Daniel Augusto, seção "Equipe". Formato quadrado, ex: 600x600px.
+img8.png  — Foto de Rafaela Moraes, seção "Equipe". Formato quadrado, ex: 600x600px.
+
+Todas as imagens já têm texto alternativo (atributo alt) escrito no
+código, para acessibilidade — se você trocar o conteúdo de alguma
+imagem, ajuste também a descrição correspondente no index.html.
+
+PERSONALIZAÇÃO RÁPIDA
+----------------------
+- Equipe: Amanda Meyrin, Beatriz Alves, Daniel Augusto e Rafaela Moraes
+  (turma 2º ano P) já estão na seção "Equipe" e no rodapé.
+- Cores: no topo do styles.css, dentro de ":root { ... }", estão todas
+  as cores nomeadas (--deep, --coral, --gold, --sand etc.) — mudar ali
+  atualiza o site inteiro.
+- Textos científicos: revise as seções "Óptica Aplicada" e "Robótica"
+  para garantir que batem com o que sua equipe realmente projetou.
+- Acessibilidade da piscina: a seção "Acessibilidade" agora tem duas
+  partes — física (elevador, rampa, piso tátil, sinalização em Braille
+  etc.) e digital (alto contraste, texto grande, leitores de tela).
+  Ajuste os itens da parte física conforme o que a equipe propuser
+  de fato para a piscina do CEP.
+
+CRITÉRIOS DE AVALIAÇÃO COBERTOS
+--------------------------------
+1. Estrutura do projeto -> nav fixo, âncoras, seções bem divididas.
+2. Qualidade visual/design -> identidade própria (paleta solar/piscina,
+   tipografia Fraunces + IBM Plex), responsivo, menu mobile.
+3. Conteúdo temático -> seções de óptica (absorção, reflexão, refração,
+   Disco de Newton, câmara escura) e robótica (fluxograma + componentes).
+4. Tecnologias web -> menu mobile funcional, toggles de acessibilidade,
+   Disco de Newton interativo, simulador de aquecimento com JavaScript.
+5. Inovação/impacto social -> simulador conceitual + seção de
+   acessibilidade com recursos reais e funcionando na própria página.
